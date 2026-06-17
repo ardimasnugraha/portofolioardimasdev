@@ -47,16 +47,15 @@ function App() {
         </ul>
       </nav>
 
-      {/* HERO SECTION: Padding vertikal disesuaikan untuk HP (py-16) */}
-      <header id="beranda" className="py-16 md:py-24 px-6 bg-gradient-to-b from-blue-50 via-indigo-50/30 to-white text-center">
+      {/* HERO SECTION */}
+      <header id="beranda" className="py-16 md:py-24 px-6 bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-blue-50 via-indigo-50/30 to-white text-center">
         <div className="max-w-4xl mx-auto">
           <span className="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-[10px] md:text-xs font-bold tracking-widest uppercase mb-4 md:mb-6 shadow-lg shadow-blue-200">
             Available for Work
           </span>
-          {/* Teks berukuran 3xl di HP Android, dan 7xl di Laptop */}
           <h1 className="text-3xl md:text-7xl font-extrabold mb-4 md:mb-6 leading-tight tracking-tight">
             Membangun Masa Depan <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600">
+            <span className="text-transparent bg-clip-text bg-[linear-gradient(to_right,var(--tw-gradient-stops))] from-blue-600 via-purple-600 to-indigo-600">
               Satu Baris Kode.
             </span>
           </h1>
@@ -64,7 +63,6 @@ function App() {
             Halo, saya <span className="font-semibold text-gray-900">Ardimas</span>. Web Developer yang berfokus pada performa, estetika, dan pengalaman pengguna yang luar biasa.
           </p>
           <div className="flex justify-center">
-            {/* Tombol dibuat full-width di HP sangat kecil, tapi diatur kembali di layar medium */}
             <a href="#kontak" className="w-full sm:w-auto bg-gray-900 text-white px-8 py-3.5 md:py-4 rounded-full font-bold text-center hover:bg-blue-600 shadow-lg hover:shadow-blue-200 transition-all duration-300 transform active:scale-95 md:hover:-translate-y-1">
               Hubungi Saya
             </a>
