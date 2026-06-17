@@ -120,7 +120,7 @@ function App() {
             <a href="https://wa.me/628xxxxxxxxxx" target="_blank" rel="noopener noreferrer" className="p-3.5 md:p-4 bg-gray-900 rounded-full hover:bg-green-500 text-gray-300 transition-all duration-300 shadow-md" title="WhatsApp">
               <FaWhatsapp size={20} className="md:w-6 md:h-6" />
             </a>
-            <a href="@Paijoyyyksn" target="_blank" rel="noopener noreferrer" className="p-3.5 md:p-4 bg-gray-900 rounded-full hover:bg-blue-500 text-gray-300 transition-all duration-300 shadow-md" title="Telegram">
+            <a href="t.me/Paijoyyyksn" target="_blank" rel="noopener noreferrer" className="p-3.5 md:p-4 bg-gray-900 rounded-full hover:bg-blue-500 text-gray-300 transition-all duration-300 shadow-md" title="Telegram">
               <FaTelegram size={20} className="md:w-6 md:h-6" />
             </a>
           </div>
